@@ -17,3 +17,15 @@ First Names - https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.79
 
 ```bash
 pip install bifsg
+
+CENSUS_API_KEY=<your-key>
+
+from bifsg import BIFSG
+
+b = BIFSG(
+    census_api_key=CENSUS_API_KEY,
+    one_line_address="1600 Pennsylvania Ave NW, Washington, DC 20500",
+    surname="Smith",
+    firstname="Alice"
+)
+print(b.BIFSG_predict())

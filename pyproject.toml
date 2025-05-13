@@ -1,6 +1,6 @@
 [project]
 name             = "bifsg"
-version          = "0.1.0"
+version          = "0.1.1"
 description      = "Bayesian Improved First-Firstname Surname Geocoding"
 readme           = "README.md"
 license          = { text = "MIT" }
